@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Samples/Google Cardboard XR Plugin for Unity/1.22.0/Hello Cardboard/Scenes/HelloCardboard.unity
     guid: 145a2a45d7bc746b19cb68410368bf96
+  - enabled: 1
+    path: Assets/L6_GoogleCardboard/Scenes/L6_BalloonPopper.unity
+    guid: dc2b59be1a27f594ea1b880cd89069e4
   m_configObjects:
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: ec5aa4c5a20208246b7a46974f056696, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 408805401d428e54199f4f6129069884, type: 2}
