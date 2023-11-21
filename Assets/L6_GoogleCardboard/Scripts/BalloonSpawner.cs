@@ -21,7 +21,7 @@ namespace L6_GoogleCardboard.Scripts
         {
             for (;;)
             {
-                /* TODO 1.1 : Get the spawning position for the balloon.
+                /* TODO 2.1 : Get the spawning position for the balloon.
                  *            Balloons should spawn at a random position inside the volume of the bounding box.
                  *            Hint: Look in the Utils functions for a helpful method & use the bounds attribute of the BoxCollider.
                  */
@@ -29,7 +29,7 @@ namespace L6_GoogleCardboard.Scripts
                 
                 if(balloonPrefab != null)
                 {
-                    // TODO 1.2 : Spawn the balloon.
+                    // TODO 2.2 : Spawn the balloon.
                     var inst = new GameObject();
                 }
                 else

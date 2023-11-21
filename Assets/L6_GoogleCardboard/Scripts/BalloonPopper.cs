@@ -12,7 +12,7 @@ namespace L6_GoogleCardboard.Scripts
             var potentialBalloon = other.GetComponent<BalloonController>();
             potentialBalloon?.DestroyBalloon(); // Null check with '?'
             
-            // TODO 4.3 : Decrement score
+            // TODO 5.3 : Decrement score
         }
     }
 }

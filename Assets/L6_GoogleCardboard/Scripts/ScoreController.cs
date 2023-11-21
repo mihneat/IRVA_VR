@@ -17,12 +17,12 @@ namespace L6_GoogleCardboard.Scripts
        {
            _score++;
            
-           // TODO 4.1 : Set the score text.
+           // TODO 5.1 : Set the score text.
        }
 
        public void DecrementScore()
        {
-           // TODO 4.2 : Implement score modification & set the score text.
+           // TODO 5.2 : Implement score modification & set the score text.
        }
     }
 }

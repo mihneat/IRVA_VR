@@ -1,3 +1,4 @@
+using System;
 using L6_GoogleCardboard.Scripts.Helpers;
 using UnityEngine;
 
@@ -29,7 +30,7 @@ namespace L6_GoogleCardboard.Scripts
         /// </summary>
         public void OnPointerEnter()
         {
-            // TODO 3.1 : Set the bool value which indicates this game object is targeted.
+            // TODO 4.1 : Set the bool value which indicates this game object is targeted.
         }
         
         /// <summary>
@@ -37,7 +38,7 @@ namespace L6_GoogleCardboard.Scripts
         /// </summary>
         public void OnPointerExit()
         {
-            // TODO 3.2 : Set the bool value which indicates this game object is not targeted anymore.
+            // TODO 4.2 : Set the bool value which indicates this game object is not targeted anymore.
             
             _balloonPopTimeInternal = 0f;
         }
@@ -51,12 +52,12 @@ namespace L6_GoogleCardboard.Scripts
 
         private void MoveBalloon()
         {
-            // TODO 2.1 : Make the balloons move upwards. Don't forget you have a speed variable already defined.
+            // TODO 3.1 : Make the balloons move upwards. Don't forget you have a speed variable already defined.
         }
 
         private void UpdateBalloonTimer()
         {
-            /* TODO 3.3 : Increment the internal timer (_balloonPopTimeInternal) when the balloon is targeted (gazed at using the reticle).
+            /* TODO 4.3 : Increment the internal timer (_balloonPopTimeInternal) when the balloon is targeted (gazed at using the reticle).
              *            Pop the balloon if the internal timer exceeds the maximum timer ('popTime' variable).
              *            Hints: - OnPointerEnter() & OnPointerExit() already set a bool value which indicates if the balloon is gazed at (or not).
              *                   - Use the already provided method to pop the balloon.
