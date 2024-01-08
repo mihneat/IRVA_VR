@@ -14,9 +14,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/L7_HTCVive/Scenes/HTCViveLab.unity
     guid: 7ce99e9eca8f61349a8ed928f5dbb46c
-  - enabled: 1
+  - enabled: 0
     path: Assets/L8_MetaQuest/Scenes/L8_MQ2_Scene.unity
     guid: 3749eed395acb994c8cd5d8b8e573b34
+  - enabled: 1
+    path: Assets/Samples/Meta XR Interaction SDK OVR Samples/59.0.0/Example Scenes/HandGrabExamples.unity
+    guid: 39ae0e546b9edc0408d3b11c6a7c2814
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 96249d5f946a3b94fb7042e08aaf5088, type: 2}
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: 3c12fe1993b3f764289c3a2d386debae, type: 2}
